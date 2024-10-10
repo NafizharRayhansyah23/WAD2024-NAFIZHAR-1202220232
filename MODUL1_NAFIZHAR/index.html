@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Toko Roti Minamino</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Toko Roti Minamino</a>
+    <div class="w3-right w3-hide-small">
+      <a href="#sejarah" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="w3-row w3-padding-64" id="about">
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+        <img class="w3-image" src="minamino.png" alt="Hamburger Catering" width="500" height="100">
+        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    </div> 
+
+    <div class="w3-col m6 w3-padding-large">
+        <div class="card w-50 p-3">
+        <div class="card-body">
+        <h5 class="card-title">Our Place</h5>
+        </div>
+        <div class="ratio ratio-1x1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d356933.8714888409!2d10.413661869378636!3d45.65994086120074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4781eca8aec020b9%3A0x91dcf07c1c969bb8!2sGarda!5e0!3m2!1spl!2spl!4v1672244147501!5m2!1spl!2spl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-content" style="max-width:1100px">
+  
+  <div class="w3-row w3-padding-64" id="sejarah">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="tokone.JPG" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div> 
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Sejarah</h1><br>
+      <h5 class="w3-center">Tradition since 1945</h5>
+      <p class="w3-large">Semenjak Pensiun dari As monaco, Minamino membuat toko roti karena dia lama di prancis <span class="w3-tag w3-light-grey"></span> .</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Dia terinsipirasi dari toko-toko pastry di Monaco dan juga prancis</p>
+    </div>
+  </div>
+  
+  
+  
+
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <img src="roti1.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+      <h4>Roti Shinji Kagawa</h4>
+      <p class="w3-text-grey">Ada rasa Dortmundnya</p><br>
+      <a class="btn btn-secondary" role="button" data-toggle="modal" data-target="#modalsam">Detail Produk</a>
+      <img src="roti2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+      <h4>Roti Wataru Endo</h4>
+      <p class="w3-text-grey">Roti Khas Merseyside x Jepang</p><br>
+      <a class="btn btn-secondary" role="button" data-toggle="modal" data-target="#modalsam">Detail Produk</a>
+      <img src="roti3.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+      <h4>Roti Kim Min Jae</h4>
+      <p class="w3-text-grey">Roti Lumayan Korea</p><br>
+      <a class="btn btn-secondary" role="button" data-toggle="modal" data-target="#modalsam">Detail Produk</a>
+      <img src="roti4.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+      <h4>Roti Takefusa Kubo</h4>
+      <p class="w3-text-grey">Roti khas Sociedad</p><br>
+      <a class="btn btn-secondary" role="button" data-toggle="modal" data-target="#modalsam">Detail Produk</a>
+      <img src="roti5.jpeg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">  
+      <h4>Roti Shohei Matsunaga</h4>
+      <p class="w3-text-grey">Lumayan Rasa Persib</p>  
+      <a class="btn btn-secondary" role="button" data-toggle="modal" data-target="#modalsam">Detail Produk</a>
+    </div>
+    
+    <h1 class="w3-center">Our Chef</h1><br>
+    <div class="w3-col l6 w3-padding-large">
+      <img src="kagawa.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      <h4>Shinji Kagawa</h4>
+      <p class="w3-text-grey">Juara Aff Suzuki Cup</p><br>
+      <img src="endo.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      <h4>Wataru Endo</h4>
+      <p class="w3-text-grey">Anak Buah Arne Slot</p><br>
+    </div>
+  </div>
+
+  <hr>
+
+  
+  <form>
+    <div class="form-group" id="contact">
+        <h1>Form Kemitraan</h1>
+      <label for="exampleInputEmail1">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter ur email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="ur Password">
+    </div>  
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <div class="modal" tabindex="-1" role="dialog" id="modalsam">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Detail Produk</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Ini Roti, ya kan?</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+  
+
+</div>
+
+
+<footer class="w3-center w3-light-grey w3-padding-32">
+    <a class="btn btn-info" href="https://shopee.co.id/" role="button">Go to our Shoope</a>
+    <a class="btn btn-info" href="https://www.tokopedia.com/?utm_source=google&utm_medium=cpc&utm_campaign=[SEM]:BR|Tokopedia_prf-tp-ID51MLAB01-0024-alon-alon" role="button">Go to our TokPed</a>
+</footer>
+
+</body>
+</html>
