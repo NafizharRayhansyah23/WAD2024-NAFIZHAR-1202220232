@@ -43,10 +43,10 @@ if ($_POST){
     //     echo "";
     // }
    
-        if (($nilai_MK_KI1202 = "A" || $nilai_MK_KI1202 = "AB") && ($nilai_MK_KI1102 = "B" || $nilai_MK_KI1102 = "AB" || $nilai_MK_KI1102 = "A")){
+        if (($nilai_MK_KI1202 == "A" || $nilai_MK_KI1202 == "AB") && ($nilai_MK_KI1102 == "B" || $nilai_MK_KI1102 == "AB" || $nilai_MK_KI1102 == "A")){
             echo $peminatan = "Kimia Pangan";
             }
-            elseif ($nilai_MK_KI1201 = "A"){
+            elseif ($nilai_MK_KI1201 == "A"){
             echo $peminatan = "Kimia Umum";
             }
     
